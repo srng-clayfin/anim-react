@@ -3,6 +3,7 @@ import React from 'react'
 import { Srng } from './Components/Srng'
 import { RNActivity } from './Components/RNActivity'
 import { RNBottomSheet } from './Components/RNBottomSheet'
+import { RNSwitch } from './Components/RNSwitch'
 
 
 
@@ -14,16 +15,18 @@ const App = () => {
     //   <RNActivity />
     // </View>
 
-    <View>
-      <RNBottomSheet />
-    </View>
-
-
     // <View>
-    //   <Text>
-    //     Srng 0720  
-    //   </Text>      
-    // </View>      
+    //   <RNBottomSheet />
+    // </View>
+
+
+    <View style={{marginTop:"20%"}}>
+      
+      {/* <RNActivity /> */}
+      {/* <RNBottomSheet /> */}
+      <RNSwitch />
+      
+    </View>      
   )
 }
 

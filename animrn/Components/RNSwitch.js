@@ -7,6 +7,7 @@ import { RNActivity } from "./RNActivity";
 
 export const RNSwitch = () => {
     const [isEnabled, setIsEnabled] = useState(false);
+    const text1 = "Srng 070201"
     const [flag, setFlag] = useState(false);
     const toggleSwitch = () => {
         setFlag(!flag)
@@ -26,12 +27,12 @@ export const RNSwitch = () => {
             {flag ?
                 <View>
                     <Text style={styles.text}>
-                        Srng 0702
-                    </Text>
+                        {}
+                    </Text>                    
                 </View>
 
                 :
-                <View>
+                <View >
                     <RNActivity />
                 </View>
             }
@@ -48,6 +49,7 @@ const styles = StyleSheet.create({
         justifyContent: "center"
     },
     text: {
+        // marginTop:30,
         fontSize: 32,
         fontWeight: "bold"
     }
