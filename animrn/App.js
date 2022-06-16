@@ -1,14 +1,20 @@
-import React from "react"
-import { View, Text } from "react-native"
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import { Srng } from './Components/Srng'
 
-export default function App()
-{
 
-  return(
+const App = () => {
+  return (
     <View>
-      <Text>
-        Srng 0702
-      </Text>
+      <Srng/>
     </View>
+
+    // <View>
+    //   <App1 />
+    // </View>      
   )
 }
+
+export default App
+
+const styles = StyleSheet.create({})
